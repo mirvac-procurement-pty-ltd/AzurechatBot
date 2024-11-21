@@ -52,6 +52,7 @@ var deployments = [
       name: chatGptModelName
       version: chatGptModelVersion
     }
+    raiPolicyName: 'Microsoft.Default'
     sku: {
       name: 'Standard'
       capacity: chatGptDeploymentCapacity
@@ -64,6 +65,7 @@ var deployments = [
       name: embeddingModelName
       version: '2'
     }
+    raiPolicyName: 'Microsoft.Default'
     capacity: embeddingDeploymentCapacity
   }
 ]
